@@ -1,0 +1,15 @@
+{
+    "users": [
+      {"id": 1, "name": "John Doe", "email": "john@example.com"},
+      {"id": 2, "name": "Jane Doe", "email": "jane@example.com"}
+    ],
+    "inventory": [
+      {"productId": "101", "productName": "Laptop", "stock": 50},
+      {"productId": "102", "productName": "Smartphone", "stock": 30}
+    ],
+    "recommendations": [
+      {"userId": 1, "products": ["101", "102"]},
+      {"userId": 2, "products": ["101"]}
+    ]
+  }
+  
