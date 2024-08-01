@@ -1,0 +1,152 @@
+/* General Styles */
+body {
+  /* background-color: #f8f9fa; */
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Navbar Styles */
+.navbar {
+  padding: 0.5rem 1rem; /* Adjust the padding to decrease thickness */
+  margin-bottom: 20px;
+}
+
+.navbar-brand {
+  padding: 0.25rem 0; /* Adjust padding for brand */
+}
+
+.navbar-nav .nav-link {
+  padding: 0.25rem 0.5rem; /* Adjust padding for nav links */
+}
+
+/* Section Styles */
+section {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Card Styles */
+.card {
+  margin-bottom: 20px;
+  border: none;
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+/* Button Styles */
+.btn-primary {
+  background-color: #111212;
+  border: none;
+  transition: background-color 0.2s;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+/* Chatbot Styles */
+.chatbot {
+  margin-top: 20px;
+}
+
+.chatbot-form {
+  display: flex;
+  gap: 10px;
+}
+
+.chatbot-form input {
+  flex: 1;
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #ced4da;
+}
+
+.chatbot-form button {
+  padding: 10px 20px;
+  border-radius: 4px;
+  border: none;
+  background-color: #007bff;
+  color: #ffffff;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.chatbot-form button:hover {
+  background-color: #0056b3;
+}
+
+.chatbot-messages {
+  margin-top: 20px;
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+.chatbot-message {
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  background-color: #e9ecef;
+}
+
+.chatbot-message.user {
+  background-color: #007bff;
+  color: #ffffff;
+  text-align: right;
+}
+
+.chatbot-message.bot {
+  background-color: #f1f1f1;
+  color: #000000;
+  text-align: left;
+}
+
+/* Product Availability Styles */
+.availability-form {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.availability-form input {
+  flex: 1;
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #ced4da;
+}
+
+.availability-form button {
+  padding: 10px 20px;
+  border-radius: 4px;
+  border: none;
+  background-color: #007bff;
+  color: #ffffff;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.availability-form button:hover {
+  background-color: #0056b3;
+}
+
+.availability-result {
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 4px;
+  background-color: #e9ecef;
+}
+body.dark-mode {
+  background-color: #121212;
+  color: white;
+}

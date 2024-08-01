@@ -1,0 +1,65 @@
+.settings {
+  padding: 20px;
+  max-width: 400px;
+  margin: auto;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  color: #333; /* Ensure text color is visible on light background */
+}
+
+.settings h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333; /* Ensure text color is visible on light background */
+}
+
+.setting-item {
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.setting-item label {
+  flex-grow: 1;
+  cursor: pointer;
+  color: #333; /* Ensure text color is visible on light background */
+}
+
+.setting-item input,
+.setting-item select {
+  margin-left: 10px;
+}
+
+.btn-logout,
+.btn-account {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-logout:hover,
+.btn-account:hover {
+  background-color: #0056b3;
+}
+
+.dark-mode {
+  background-color: #333;
+  color: white;
+}
+
+.dark-mode .settings {
+  background-color: #444;
+  color: white;
+}
+
+.dark-mode .settings h2,
+.dark-mode .setting-item label {
+  color: white; /* Ensure text color is visible on dark background */
+}

@@ -1,0 +1,59 @@
+body {
+    background-color: #a1967f;
+    color: #fff;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .navbar {
+    background-color: #746a4f;
+  }
+  
+  .navbar-brand, .nav-link {
+    color: #fff !important;
+  }
+  
+  .container {
+    margin-top: 50px;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    color: #fff;
+  }
+  
+  .card {
+    background-color: #8c8166;
+    border: none;
+  }
+  
+  .card-title, .card-text {
+    color: #fff;
+  }
+  
+  .btn-primary {
+    background-color: #746a4f;
+    border: none;
+  }
+  
+  .chat-window {
+    background-color: #8c8166;
+    padding: 10px;
+    border-radius: 5px;
+    height: 300px;
+    overflow-y: scroll;
+  }
+  
+  .message {
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .message.user {
+    background-color: #746a4f;
+    text-align: right;
+  }
+  
+  .message.bot {
+    background-color: #a1967f;
+  }
+  

@@ -1,0 +1,41 @@
+/* src/components/Navbar.css */
+
+.navbar {
+    background-color: #333; /* Consistent dark gray background */
+    color: white;
+}
+
+.nav-link {
+    color: white;
+    margin-right: 10px; /* Ensures spacing */
+}
+
+.nav-link:last-child {
+    margin-right: 0; /* Removes extra space on the last item */
+}
+
+.search-form {
+    display: flex;
+    align-items: center;
+}
+
+.search-input {
+    border: 2px solid white; /* White border for input */
+    background-color: white; /* Set background color to white */
+    color: black; /* Set text color to black for visibility */
+    margin-right: 10px;
+}
+
+.search-button {
+    background-color: #111111; /* Lighter gray for the button */
+    color: white;
+    border: none;
+}
+
+.search-button:hover {
+    background-color: #777; /* Even lighter gray on hover */
+}
+
+.fa-user-circle {
+    font-size: 1.5rem; /* Adjust size of the icon */
+}

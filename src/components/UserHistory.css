@@ -1,0 +1,28 @@
+/* In a file like UserHistory.css */
+
+.container {
+    padding: 20px;
+}
+
+h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+.list-group-item {
+    padding: 15px;
+    margin-bottom: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.list-group-item div {
+    margin-bottom: 5px;
+}
+
+.list-group-item strong {
+    font-size: 18px;
+    color: #007bff;
+}
